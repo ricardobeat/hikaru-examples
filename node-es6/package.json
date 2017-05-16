@@ -1,0 +1,21 @@
+{
+  "name": "hikaru-example-node-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cake build"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "handlebars": "*"
+  },
+  "dependencies": {
+    "koa": "^1.2.0",
+    "koa-browserify": "^0.1.0",
+    "koa-handlebars": "^0.5.7",
+    "thenify": "^3.2.0"
+  }
+}

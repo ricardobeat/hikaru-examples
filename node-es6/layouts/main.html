@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+    <title>Hikaru Sample: node + handlebars</title>
+</head>
+<body>
+    {{{@body}}}
+    <script>
+        window.appData = {
+            initialState: {{{json @initialState}}},
+            templates: {{{json @templates}}}
+        };
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>

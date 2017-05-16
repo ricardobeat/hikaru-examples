@@ -1,0 +1,4 @@
+flour = require 'flour'
+
+task 'build:css', ->
+    compile 'components/**/*.css', 'build/components.css'
